@@ -1,0 +1,191 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj",
+        "projectName": "Catalog.Application",
+        "projectPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet@6/6.0.114/libexec/sdk/6.0.114/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/Catalog.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/Catalog.Core.csproj",
+        "projectName": "Catalog.Core",
+        "projectPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/Catalog.Core.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj": {
+                "projectPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet@6/6.0.114/libexec/sdk/6.0.114/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj",
+        "projectName": "Catalog.Infrastructure",
+        "projectPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj": {
+                "projectPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj"
+              },
+              "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/Catalog.Core.csproj": {
+                "projectPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/Catalog.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet@6/6.0.114/libexec/sdk/6.0.114/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/bin/Debug/net6.0/Catalog.Core.deps.json
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/bin/Debug/net6.0/Catalog.Core.dll
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/bin/Debug/net6.0/ref/Catalog.Core.dll
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/bin/Debug/net6.0/Catalog.Core.pdb
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/bin/Debug/net6.0/Catalog.Application.dll
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/bin/Debug/net6.0/Catalog.Application.pdb
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.csproj.AssemblyReference.cache
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.AssemblyInfoInputs.cache
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.AssemblyInfo.cs
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.csproj.CoreCompileInputs.cache
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.csproj.CopyComplete
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.dll
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/ref/Catalog.Core.dll
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.pdb
