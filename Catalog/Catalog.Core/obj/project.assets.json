@@ -442,16 +442,6 @@
         "runtime": {
           "lib/net6.0/ZstdSharp.dll": {}
         }
-      },
-      "Catalog.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Catalog.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Catalog.Application.dll": {}
-        }
       }
     }
   },
@@ -1133,17 +1123,11 @@
         "zstdsharp.port.0.6.2.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
-    },
-    "Catalog.Application/1.0.0": {
-      "type": "project",
-      "path": "../Catalog.Application/Catalog.Application.csproj",
-      "msbuildProject": "../Catalog.Application/Catalog.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AspNetCore.HealthChecks.MongoDb >= 6.0.2",
-      "Catalog.Application >= 1.0.0",
       "MongoDB.Driver >= 2.19.2"
     ]
   },
@@ -1171,11 +1155,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj": {
-              "projectPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

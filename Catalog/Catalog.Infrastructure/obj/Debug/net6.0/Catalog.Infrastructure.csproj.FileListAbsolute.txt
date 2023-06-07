@@ -2,9 +2,7 @@
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/Catalog.Infrastructure.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/ref/Catalog.Infrastructure.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/Catalog.Infrastructure.pdb
-/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/Catalog.Application.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/Catalog.Core.dll
-/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/Catalog.Application.pdb
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/Catalog.Core.pdb
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/obj/Debug/net6.0/Catalog.Infrastructure.csproj.AssemblyReference.cache
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/obj/Debug/net6.0/Catalog.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,3 +13,6 @@
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/obj/Debug/net6.0/Catalog.Infrastructure.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/obj/Debug/net6.0/ref/Catalog.Infrastructure.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/obj/Debug/net6.0/Catalog.Infrastructure.pdb
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/Data/SeedData/brands.json
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/Data/SeedData/products.json
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/bin/Debug/net6.0/Data/SeedData/types.json

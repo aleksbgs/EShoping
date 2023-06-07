@@ -19,10 +19,8 @@
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/obj/Debug/net6.0/ref/Catalog.API.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/obj/Debug/net6.0/Catalog.API.pdb
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/obj/Debug/net6.0/Catalog.API.genruntimeconfig.cache
-/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Catalog.Application.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Catalog.Core.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Catalog.Infrastructure.dll
-/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Catalog.Application.pdb
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Catalog.Infrastructure.pdb
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Catalog.Core.pdb
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/obj/Debug/net6.0/Catalog.API.csproj.CopyComplete
@@ -45,3 +43,6 @@
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Binder.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Data/SeedData/brands.json
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Data/SeedData/products.json
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Data/SeedData/types.json

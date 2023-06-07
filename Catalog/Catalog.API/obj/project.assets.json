@@ -465,22 +465,11 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
-      "Catalog.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Catalog.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Catalog.Application.dll": {}
-        }
-      },
       "Catalog.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AspNetCore.HealthChecks.MongoDb": "6.0.2",
-          "Catalog.Application": "1.0.0",
           "MongoDB.Driver": "2.19.2"
         },
         "compile": {
@@ -494,7 +483,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Catalog.Application": "1.0.0",
           "Catalog.Core": "1.0.0",
           "Microsoft.Extensions.Configuration.Binder": "7.0.4"
         },
@@ -1223,11 +1211,6 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "Catalog.Application/1.0.0": {
-      "type": "project",
-      "path": "../Catalog.Application/Catalog.Application.csproj",
-      "msbuildProject": "../Catalog.Application/Catalog.Application.csproj"
-    },
     "Catalog.Core/1.0.0": {
       "type": "project",
       "path": "../Catalog.Core/Catalog.Core.csproj",
@@ -1241,7 +1224,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Catalog.Application >= 1.0.0",
       "Catalog.Infrastructure >= 1.0.0"
     ]
   },
@@ -1270,9 +1252,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj": {
-              "projectPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj"
-            },
             "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj": {
               "projectPath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj"
             }
