@@ -7,7 +7,7 @@ namespace Catalog.Application.Commands;
 
 public class UpdateProductCommand :IRequest<bool>
 {
-    [BsonId]
+    [BsonId] 
     [BsonRepresentation(BsonType.ObjectId)]
     public string Id { get; set; }
     [BsonElement("Name")] 
