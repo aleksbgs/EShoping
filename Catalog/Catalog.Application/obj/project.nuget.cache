@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xXzKDFWLWhLsMkFphA6B9Bog72P5uZHFj5gcoVJWS0zhKFjRCAlO6kZcwb3gF5L0Ccgzq9+RPFXcMtWqgUkoNw==",
+  "dgSpecHash": "OgwExU0h9QctHrc+v5j4ZW5I+b8ckk9O034VJ6JQMbgPMgUNl20Fz6UFJFCwjQ9aqSNxrsuBfLFseOZ+tOPPnQ==",
   "success": true,
   "projectFilePath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Application/Catalog.Application.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,8 @@
     "/Users/admin/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/admin/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/Users/admin/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
-    "/Users/admin/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
-    "/Users/admin/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/admin/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration.binder/7.0.4/microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
