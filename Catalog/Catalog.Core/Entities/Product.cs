@@ -12,6 +12,6 @@ public class Product: BaseEntity
     public string ImageFile { get; set; }
     public ProductBrand Brands { get; set; }
     public ProductType Types { get; set; }
-    [BsonRepresentation(BsonType.Decimal128)]
+ 
     public decimal Price { get; set; }
 }

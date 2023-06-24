@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vb7FHuICW0sNSrDSSi33aB4ZBVyFRtgwWzkVMlY0wO9TuoQeNFqY9faK9nr0Kfebok+yZhFQ9Bz6QTTIjYjQpA==",
+  "dgSpecHash": "sE5yu1aUIr1hda21nxs1OK+WqkT+j1sLUdrztP/TqRKXB1kqi/L9CV41PgFVvqoVOu4O75SldDxyo/p+eKw2fQ==",
   "success": true,
   "projectFilePath": "/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,8 +8,8 @@
     "/Users/admin/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/admin/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/Users/admin/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
-    "/Users/admin/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
-    "/Users/admin/.nuget/packages/microsoft.extensions.configuration.binder/7.0.4/microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.extensions.configuration.binder/6.0.0/microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/6.0.2/microsoft.extensions.diagnostics.healthchecks.6.0.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/6.0.2/microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.2.nupkg.sha512",
@@ -17,7 +17,7 @@
     "/Users/admin/.nuget/packages/microsoft.extensions.hosting.abstractions/6.0.0/microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "/Users/admin/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/mongodb.bson/2.19.2/mongodb.bson.2.19.2.nupkg.sha512",

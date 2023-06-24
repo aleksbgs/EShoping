@@ -40,9 +40,6 @@
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/runtimes/linux/native/libmongocrypt.so
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/runtimes/osx/native/libmongocrypt.dylib
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/runtimes/win/native/mongocrypt.dll
-/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
-/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Binder.dll
-/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Data/SeedData/brands.json
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Data/SeedData/products.json
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.API/bin/Debug/net6.0/Data/SeedData/types.json

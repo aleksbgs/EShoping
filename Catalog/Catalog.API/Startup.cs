@@ -15,7 +15,7 @@ namespace Catalog.API;
 public class Startup
 {
     private readonly IConfiguration _configuration;
-    public IConfiguration Configuration;
+ 
 
     public Startup(IConfiguration configuration)
     {
@@ -26,8 +26,9 @@ public class Startup
     {
         services.AddControllers();
         services.AddApiVersioning();
+        services.AddHealthChecks();
         services.AddHealthChecks()
-            .AddMongoDb(_configuration["Logging:ConnectionStrings:DatabaseName"], "Catalog  Mongo Db Health Check",
+            .AddMongoDb(_configuration["DatabaseSettings:ConnectionString"], "Catalog  Mongo Db Health Check",
                 HealthStatus.Degraded);
         services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo { Title = "4Create.API", Version = "v1" }); });
         //DI
