@@ -2,6 +2,7 @@ using System.Net;
 using Catalog.Application.Commands;
 using Catalog.Application.Queries;
 using Catalog.Application.Responses;
+using Catalog.Core.Specs;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -41,15 +42,16 @@ public class CatalogController : ApiController
         var result = await _mediator.Send(query);
         return Ok(result);
     }
-    
+
     [HttpGet]
     [Route("GetAllProducts")]
     [ProducesResponseType(typeof(IList<ProductResponse>), (int)HttpStatusCode.OK)]
-    public async Task<ActionResult<IList<ProductResponse>>> GetAllProducts()
+    public async Task<ActionResult<IList<ProductResponse>>> GetAllProducts(
+        [FromQuery] CatalogSpecParams catalogSpecParams)
     {
         try
         {
-            var query = new GetAllProductsQuery();
+            var query = new GetAllProductsQuery(catalogSpecParams);
             var result = await _mediator.Send(query);
             _logger.LogInformation("All products retrieved");
             return Ok(result);
@@ -60,7 +62,7 @@ public class CatalogController : ApiController
             throw;
         }
     }
-    
+
     [HttpGet]
     [Route("GetAllBrands")]
     [ProducesResponseType(typeof(IList<BrandResponse>), (int)HttpStatusCode.OK)]

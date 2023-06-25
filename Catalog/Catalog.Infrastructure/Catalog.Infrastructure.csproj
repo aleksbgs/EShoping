@@ -19,13 +19,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/Data/SeedData/brands.json">
+      <None Update="Data/SeedData/brands.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Update="/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/Data/SeedData/products.json">
+      <None Update="Data/SeedData/products.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Update="/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Infrastructure/Data/SeedData/types.json">
+      <None Update="Data/SeedData/types.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

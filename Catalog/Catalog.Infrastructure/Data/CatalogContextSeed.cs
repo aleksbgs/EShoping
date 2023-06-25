@@ -10,11 +10,13 @@ public class CatalogContextSeed
     {
         bool checkProducts = productCollection.Find(b => true).Any();
 
-        string path = Path.Combine("Data", "SeedData", "product.json");
+       string path = Path.Combine("Data", "SeedData", "products.json");
+      // string path = Path.Combine("../Catalog.Infrastructure/Data/SeedData/products.json");
 
         if (!checkProducts)
         {
             var productsData = File.ReadAllText(path);
+ 
             var products = JsonSerializer.Deserialize<List<Product>>(productsData);
 
             if (products != null)

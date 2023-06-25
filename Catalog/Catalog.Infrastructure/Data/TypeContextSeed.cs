@@ -12,9 +12,12 @@ public class TypeContextSeed
 
         string path = Path.Combine("Data", "SeedData", "types.json");
 
+        //string path = Path.Combine("../Catalog.Infrastructure/Data/SeedData/types.json");
+
         if (!checkTypes)
         {
             var typesData = File.ReadAllText(path);
+     
             var types = JsonSerializer.Deserialize<List<ProductType>>(typesData);
 
             if (types != null)
