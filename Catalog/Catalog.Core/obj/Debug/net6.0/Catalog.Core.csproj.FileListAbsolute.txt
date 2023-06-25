@@ -9,3 +9,4 @@
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/ref/Catalog.Core.dll
 /Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.pdb
+/Users/admin/Desktop/microservices/EShoping/Catalog/Catalog.Core/obj/Debug/net6.0/Catalog.Core.csproj.AssemblyReference.cache
