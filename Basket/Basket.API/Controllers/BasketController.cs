@@ -35,7 +35,7 @@ public class BasketController:ApiController
         return Ok(basket);
     }
 
-    [HttpGet]
+    [HttpDelete]
     [Route("[action]/{userName}", Name = "DeleteBasketByUserName")]
     [ProducesResponseType((int)HttpStatusCode.OK)]
     public async Task<ActionResult<ShoppingCartResponse>> DeleteBasket(string userName)
