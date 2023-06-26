@@ -14,8 +14,6 @@ services:
     ports:
       - "6379:6379"
   
-  
-  
   catalog.api:
     container_name: catalog.api
     environment:
@@ -36,7 +34,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       #      - ASPNETCORE_URLS=http://*:9000
-      - "DatabaseSettings__ConnectionString=basketdb:27017"
+      - "CacheSettings__ConnectionString=basketdb:6379"
     depends_on:
       - basketdb
     ports:
