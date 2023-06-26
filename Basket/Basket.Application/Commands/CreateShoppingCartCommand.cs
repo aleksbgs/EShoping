@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Basket.Application.Commands;
 
-public class CreateShoppingCartCommand:IRequest, IRequest<ShopingCartResponse>
+public class CreateShoppingCartCommand:IRequest, IRequest<ShoppingCartResponse>
 {
     
     public CreateShoppingCartCommand(string userName, List<ShoppingCartItem> items)

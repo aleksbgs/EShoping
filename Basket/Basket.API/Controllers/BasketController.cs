@@ -18,8 +18,8 @@ public class BasketController:ApiController
 
     [HttpGet]
     [Route("[action]/{userName}", Name = "GetBasketByUserName")]
-    [ProducesResponseType(typeof(ShopingCartResponse), (int)HttpStatusCode.OK)]
-    public async Task<ActionResult<ShopingCartResponse>> GetBasket(string userName)
+    [ProducesResponseType(typeof(ShoppingCartResponse), (int)HttpStatusCode.OK)]
+    public async Task<ActionResult<ShoppingCartResponse>> GetBasket(string userName)
     {
         var query = new GetBasketByUserNameQuery(userName);
         var basket = await _mediator.Send(query);
@@ -27,10 +27,10 @@ public class BasketController:ApiController
     }
 
     [HttpPost("CreateBasket")]
-    [ProducesResponseType(typeof(ShopingCartResponse), (int)HttpStatusCode.OK)]
-    public async Task<ActionResult<ShopingCartResponse>> UpdateBasket(
-        [FromBody] CreateShoppingCartCommand createShoppingCartCommand)
+    [ProducesResponseType(typeof(ShoppingCartResponse), (int) HttpStatusCode.OK)]
+    public async Task<ActionResult<ShoppingCartResponse>> UpdateBasket([FromBody] CreateShoppingCartCommand createShoppingCartCommand)
     {
+        
         var basket = await _mediator.Send(createShoppingCartCommand);
         return Ok(basket);
     }
@@ -38,7 +38,7 @@ public class BasketController:ApiController
     [HttpGet]
     [Route("[action]/{userName}", Name = "DeleteBasketByUserName")]
     [ProducesResponseType((int)HttpStatusCode.OK)]
-    public async Task<ActionResult<ShopingCartResponse>> DeleteBasket(string userName)
+    public async Task<ActionResult<ShoppingCartResponse>> DeleteBasket(string userName)
     {
         var query = new DeleteBasketByUserNameQuery(userName);
         return Ok(await _mediator.Send(query));

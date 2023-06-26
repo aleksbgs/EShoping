@@ -1,18 +1,18 @@
 namespace Basket.Application.Responses;
 
-public class ShopingCartResponse
+public class ShoppingCartResponse
 {
     public string UserName { get; set; }
 
     public List<ShopingCartItemResponse> Items { get; set; }
 
 
-    public ShopingCartResponse()
+    public ShoppingCartResponse()
     {
 
     }
 
-    public ShopingCartResponse(string userName)
+    public ShoppingCartResponse(string userName)
     {
         UserName = userName;
     }

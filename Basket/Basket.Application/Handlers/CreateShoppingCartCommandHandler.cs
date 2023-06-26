@@ -7,7 +7,7 @@ using MediatR;
 
 namespace Basket.Application.Handlers;
 
-public class CreateShoppingCartCommandHandler:IRequestHandler<CreateShoppingCartCommand,ShopingCartResponse>
+public class CreateShoppingCartCommandHandler:IRequestHandler<CreateShoppingCartCommand,ShoppingCartResponse>
 {
     private readonly IBasketRepository _basketRepository;
 
@@ -17,7 +17,7 @@ public class CreateShoppingCartCommandHandler:IRequestHandler<CreateShoppingCart
         _basketRepository = basketRepository;
     }
 
-    public async Task<ShopingCartResponse> Handle(CreateShoppingCartCommand request,
+    public async Task<ShoppingCartResponse> Handle(CreateShoppingCartCommand request,
         CancellationToken cancellationToken)
     {
         //TODO: Call Discount service and apply coupons
@@ -27,7 +27,7 @@ public class CreateShoppingCartCommandHandler:IRequestHandler<CreateShoppingCart
             UserName = request.UserName,
             Items = request.Items 
         });
-        var shoppingCartResponse = BasketMapper.Mapper.Map<ShopingCartResponse>(shoppingCart);
+        var shoppingCartResponse = BasketMapper.Mapper.Map<ShoppingCartResponse>(shoppingCart);
         return shoppingCartResponse;
     }
 }
