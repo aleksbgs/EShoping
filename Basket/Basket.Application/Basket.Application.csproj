@@ -15,5 +15,10 @@
       <PackageReference Include="Grpc.AspNetCore" Version="2.54.0" />
         <PackageReference Include="MediatR" Version="11.1.0" />
     </ItemGroup>
+    <ItemGroup>
+        <Protobuf Include="..\..\Services\Discount\Discount.Application\Protos\discount.proto" GrpcServices="Client">
+                <Link>Protos\discount.proto</Link>
+        </Protobuf>
+    </ItemGroup>
 
 </Project>
