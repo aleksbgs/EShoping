@@ -10,4 +10,15 @@
       <ProjectReference Include="..\Ordering.Core\Ordering.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Behaviour\" />
+      <Folder Include="Commands\" />
+      <Folder Include="Extensions\" />
+      <Folder Include="Handlers\" />
+      <Folder Include="Mappers\" />
+      <Folder Include="Queries\" />
+      <Folder Include="Responses\" />
+      <Folder Include="Validators\" />
+    </ItemGroup>
+
 </Project>
